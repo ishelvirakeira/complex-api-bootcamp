@@ -5,6 +5,7 @@
 This Movie/Wiki API project allows users to enter the title of any movie and fetch information about it from two APIs: IMDB API which provides the movie's title, poster image and release year and Wikipedia API which provides a short summary of the movie and a link to the full Wikipedia page. The information is displayed in the DOM. 
 
 Example of a movie: 
+
 <img width="530" height="430" alt="Barbie" src="https://github.com/user-attachments/assets/843b74eb-07b9-46a4-8cf2-000973ce129c" />
 
 

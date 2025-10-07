@@ -2,21 +2,12 @@
 
 ### Goal: Use data returned from one api to make a request to another api and display the data returned
 
-### How to submit your code for review:
+This Movie/Wiki API project allows users to enter the title of any movie and fetch information about it from two APIs: IMDB API which provides the movie's title, poster image and release year and Wikipedia API which provides a short summary of the movie and a link to the full Wikipedia page. The information is displayed in the DOM. 
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+Example of a movie: 
+<img width="530" height="430" alt="Barbie" src="https://github.com/user-attachments/assets/843b74eb-07b9-46a4-8cf2-000973ce129c" />
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+
+Tools used: HTML, CSS, JavaScript, Postman, APIs
+
+I learned how to fetch data from multiple APIs and combine information from different sources to create a well-structured user experience.

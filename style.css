@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background: rgb(230, 230, 204);
+  color: orange;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: rgb(211, 162, 71);
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  font-size: 1rem;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 250px;
+  max-width: 80%;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 19px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(214, 165, 74);
+  color: rgb(114, 110, 110);
+  cursor: pointer;
+
+}
+
+button:hover {
+  background-color: rgb(183, 183, 143);
+}
+
+h2 {
+  margin: 20px 0 10px 0;
+  font-size: 20px;
+  color:rgb(129, 101, 50);
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+  margin: 15px 0;
+  box-shadow: 0px 0px 15px rgba(0,0,0,0.5);
+}
+
+/* Release year and plot */
+.releaseYear, .summary {
+  display: block;
+  margin: 10px 0;
+  font-size: 1rem;
+  color: rgb(82, 82, 39);
+  line-height: 2;
+}
+
+.results a {
+  color: #433e31;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.results a:hover {
+  text-decoration: underline;
+}
+.results{
+    padding: 20px;
+
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+  input[type="text"] {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    width: 35%;
+    margin-bottom: 15px;
+  }
+
+  img {
+    max-width: 250px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  input[type="text"], button {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+
+  img {
+    max-width: 200px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .summary, .releaseYear {
+    font-size: 15px;
+  }
+}

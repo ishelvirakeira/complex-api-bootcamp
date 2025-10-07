@@ -3,7 +3,7 @@
 document.querySelector('button').addEventListener('click', getMovie);
 function getMovie(){
     const title = document.querySelector('input').value;
-    const url= `https://imdb.iamidiotareyoutoo.com/search?q=${encodeURIComponent(title)}`;
+    const url= `https://imdb.iamidiotareyoutoo.com/search?q=${encodeURIComponent(title)}`;//learned the encode part from Karim
 //movie result
     fetch(url)
     .then(res => res.json())
@@ -34,6 +34,7 @@ function getMovie(){
 
     })
 }
+
 
 
 
